@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73D60582085C8D700819869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D60572085C8D700819869 /* AppDelegate.m */; };
+		D73D605B2085C8D700819869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D605A2085C8D700819869 /* ViewController.m */; };
+		D73D605E2085C8D700819869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D605C2085C8D700819869 /* Main.storyboard */; };
+		D73D60602085C8D900819869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D605F2085C8D900819869 /* Assets.xcassets */; };
+		D73D60632085C8D900819869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D60612085C8D900819869 /* LaunchScreen.storyboard */; };
+		D73D60662085C8D900819869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D60652085C8D900819869 /* main.m */; };
+		D73D60702085C94A00819869 /* KDMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D606F2085C94A00819869 /* KDMonitor.m */; };
+		D73D60732085CF7300819869 /* KDStrategyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D60722085CF7300819869 /* KDStrategyOperation.m */; };
+		D73D60742085DD8800819869 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D73D60642085C8D900819869 /* Info.plist */; };
+		F7394B2F4991CAE7D157FEDA /* libPods-KDMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFE2C38727A4EA2BDB3F54A /* libPods-KDMonitor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5522B8C9A9618B41DFA7911A /* Pods-KDMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-KDMonitor/Pods-KDMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		61741E6D90AA71AA13F286CB /* Pods-KDMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDMonitor/Pods-KDMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		D73D60532085C8D700819869 /* KDMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D60562085C8D700819869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D73D60572085C8D700819869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D73D60592085C8D700819869 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D73D605A2085C8D700819869 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D73D605D2085C8D700819869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73D605F2085C8D900819869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73D60622085C8D900819869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73D60642085C8D900819869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73D60652085C8D900819869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D73D606E2085C94A00819869 /* KDMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDMonitor.h; sourceTree = "<group>"; };
+		D73D606F2085C94A00819869 /* KDMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDMonitor.m; sourceTree = "<group>"; };
+		D73D60712085CF7300819869 /* KDStrategyOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDStrategyOperation.h; sourceTree = "<group>"; };
+		D73D60722085CF7300819869 /* KDStrategyOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDStrategyOperation.m; sourceTree = "<group>"; };
+		EEFE2C38727A4EA2BDB3F54A /* libPods-KDMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KDMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73D60502085C8D700819869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7394B2F4991CAE7D157FEDA /* libPods-KDMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB2FD8DED1AF52A3DD1B82D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE2C38727A4EA2BDB3F54A /* libPods-KDMonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D73D604A2085C8D700819869 = {
+			isa = PBXGroup;
+			children = (
+				D73D60552085C8D700819869 /* KDMonitor */,
+				D73D60542085C8D700819869 /* Products */,
+				FCDDB3AD466B2024B9332DFD /* Pods */,
+				7EB2FD8DED1AF52A3DD1B82D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D73D60542085C8D700819869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73D60532085C8D700819869 /* KDMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73D60552085C8D700819869 /* KDMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				D73D606D2085C91100819869 /* Class */,
+				D73D606C2085C8FB00819869 /* Support */,
+			);
+			path = KDMonitor;
+			sourceTree = "<group>";
+		};
+		D73D606C2085C8FB00819869 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D73D60562085C8D700819869 /* AppDelegate.h */,
+				D73D60572085C8D700819869 /* AppDelegate.m */,
+				D73D60592085C8D700819869 /* ViewController.h */,
+				D73D605A2085C8D700819869 /* ViewController.m */,
+				D73D605C2085C8D700819869 /* Main.storyboard */,
+				D73D605F2085C8D900819869 /* Assets.xcassets */,
+				D73D60612085C8D900819869 /* LaunchScreen.storyboard */,
+				D73D60642085C8D900819869 /* Info.plist */,
+				D73D60652085C8D900819869 /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D73D606D2085C91100819869 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D73D606E2085C94A00819869 /* KDMonitor.h */,
+				D73D606F2085C94A00819869 /* KDMonitor.m */,
+				D73D60712085CF7300819869 /* KDStrategyOperation.h */,
+				D73D60722085CF7300819869 /* KDStrategyOperation.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FCDDB3AD466B2024B9332DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61741E6D90AA71AA13F286CB /* Pods-KDMonitor.debug.xcconfig */,
+				5522B8C9A9618B41DFA7911A /* Pods-KDMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73D60522085C8D700819869 /* KDMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73D60692085C8D900819869 /* Build configuration list for PBXNativeTarget "KDMonitor" */;
+			buildPhases = (
+				1C8B723825B1610640E92291 /* [CP] Check Pods Manifest.lock */,
+				D73D604F2085C8D700819869 /* Sources */,
+				D73D60502085C8D700819869 /* Frameworks */,
+				D73D60512085C8D700819869 /* Resources */,
+				2CE88BFF7121E68B983AF8E6 /* [CP] Embed Pods Frameworks */,
+				47AF5915F26353519C777979 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDMonitor;
+			productName = KDMonitor;
+			productReference = D73D60532085C8D700819869 /* KDMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73D604B2085C8D700819869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "一维";
+				TargetAttributes = {
+					D73D60522085C8D700819869 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D73D604E2085C8D700819869 /* Build configuration list for PBXProject "KDMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73D604A2085C8D700819869;
+			productRefGroup = D73D60542085C8D700819869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73D60522085C8D700819869 /* KDMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73D60512085C8D700819869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D60742085DD8800819869 /* Info.plist in Resources */,
+				D73D60632085C8D900819869 /* LaunchScreen.storyboard in Resources */,
+				D73D60602085C8D900819869 /* Assets.xcassets in Resources */,
+				D73D605E2085C8D700819869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C8B723825B1610640E92291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE88BFF7121E68B983AF8E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KDMonitor/Pods-KDMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47AF5915F26353519C777979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KDMonitor/Pods-KDMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73D604F2085C8D700819869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D605B2085C8D700819869 /* ViewController.m in Sources */,
+				D73D60702085C94A00819869 /* KDMonitor.m in Sources */,
+				D73D60662085C8D900819869 /* main.m in Sources */,
+				D73D60582085C8D700819869 /* AppDelegate.m in Sources */,
+				D73D60732085CF7300819869 /* KDStrategyOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D73D605C2085C8D700819869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D605D2085C8D700819869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73D60612085C8D900819869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D60622085C8D900819869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73D60672085C8D900819869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D73D60682085C8D900819869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73D606A2085C8D900819869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61741E6D90AA71AA13F286CB /* Pods-KDMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDMonitor/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persenlee.KDMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73D606B2085C8D900819869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5522B8C9A9618B41DFA7911A /* Pods-KDMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDMonitor/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persenlee.KDMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73D604E2085C8D700819869 /* Build configuration list for PBXProject "KDMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D60672085C8D900819869 /* Debug */,
+				D73D60682085C8D900819869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73D60692085C8D900819869 /* Build configuration list for PBXNativeTarget "KDMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D606A2085C8D900819869 /* Debug */,
+				D73D606B2085C8D900819869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73D604B2085C8D700819869 /* Project object */;
+}

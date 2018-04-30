@@ -1,0 +1,9 @@
+Pods/
+build/
+.DS_Store
+*.xcuserstate
+*.xcbkptlist
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
